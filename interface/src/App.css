@@ -1,0 +1,179 @@
+/* Ajouter en haut de votre fichier CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+h1 {
+    color: white;                  /* Couleur du texte en blanc */
+    text-align: center;            /* Centrer le texte horizontalement */
+    font-family: 'Montserrat', sans-serif; /* Utiliser la police Montserrat */
+    margin-top: 50px;              /* Ajouter un peu d'espace en haut */
+}
+
+h1 img {
+    height: 50px; /* ou la taille que vous souhaitez */
+    width: auto; /* pour conserver les proportions */
+    margin-left: 20px; /* pour un peu d'espace entre le texte et l'image */
+}
+/* Style pour centrer les boutons au milieu de la page */
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Ajoutez la marge souhaitée pour le décalage vertical */
+}
+
+/* Style pour les boutons */
+.button {
+    background-color: white; /* Fond blanc */
+    border: 1px solid #800020; /* Bordure rouge bordeaux pour correspondre au thème */
+    color: #800020; /* Texte rouge bordeaux pour correspondre au thème */
+    padding: 15px 30px; /* Ajustez le padding pour changer la taille */
+    text-transform: uppercase; /* Optionnel: texte en majuscules */
+    font-weight: bold; /* Police en gras */
+    margin: 0 30px; /* Espacement autour des boutons */
+    cursor: pointer; /* Curseur pointeur pour indiquer qu'il s'agit d'un bouton */
+    font-size: 1.2em; /* Taille du texte agrandie */
+}
+
+/* Style pour les liens, pour enlever les styles par défaut */
+.nav a {
+    text-decoration: none; /* Enlever le soulignement */
+}
+
+/* Style pour le conteneur de votre nom/prénom */
+.name-container {
+    color: white; /* Couleur du texte en blanc */
+    text-align: center; /* Centrer le texte horizontalement */
+    margin-top: 20px; /* Espacement après les boutons */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
