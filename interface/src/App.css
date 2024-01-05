@@ -44,7 +44,46 @@ h1 img {
     text-align: center; /* Centrer le texte horizontalement */
     margin-top: 20px; /* Espacement après les boutons */
 }
+.home-container {
+    background-color: #ffffff; /* Fond blanc pour contraster avec le rouge bordeaux */
+    color: #800020; /* Couleur du texte en rouge bordeaux */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Centre le conteneur et ajoute un espace autour */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%; /* Réduit la largeur du conteneur */
+    max-width: 720px; /* Largeur maximale du conteneur */
+    overflow: hidden; /* Masque le débordement pour cacher la barre de défilement */
+}
 
+.comment-container {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto; /* Centre chaque commentaire individuellement */
+    width: 90%; /* Réduit la largeur des commentaires */
+    max-width: 600px; /* Largeur maximale des commentaires */
+}
+
+.comment-author, .comment-note, .comment-text {
+    margin: 5px 0; /* Réduit l'espacement entre les éléments */
+    font-size: 0.9em; /* Réduit la taille de police des commentaires */
+}
+
+/* Styles supplémentaires pour ajuster le carousel si nécessaire */
+.slick-slider {
+    /* Ajoutez des styles ici si vous avez accès à la classe du carousel pour ajuster la barre de défilement */
+}
+
+/* Styles pour cacher la barre de défilement du carousel */
+.slick-list {
+    overflow: hidden; /* Cela cachera la barre de défilement */
+}
+
+/* Styles pour les boutons de navigation du carousel ('Previous' et 'Next') */
+.slick-prev, .slick-next {
+    z-index: 1; /* S'assure que les boutons sont au-dessus des slides */
+    /* Ajoutez des styles supplémentaires ici pour ajuster les boutons si nécessaire */
+}
 
 
 

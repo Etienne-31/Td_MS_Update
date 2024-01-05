@@ -1,0 +1,46 @@
+.comment-area {
+    width: 90%; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    margin: 20px 0; /* Adds space above and below */
+    padding: 10px; /* Inner spacing */
+    font-size: 16px; /* Font size for the text entered */
+    border: 1px solid #ccc; /* Border around the textarea */
+    border-radius: 4px; /* Rounded corners */
+    display: block; /* Ensures the textarea doesn't inline */
+    resize: vertical; /* Allows the user to resize vertically */
+    margin-left: 0px; /* Aligns the textarea to the center-left */
+
+    margin-bottom: 600px;
+}
+
+.left-centered-buttonV {
+    position: absolute;
+    top: 10%; /* Adjust based on your layout */
+    left: 10%; /* Adjust based on your layout */
+    padding: 10px 20px;
+    background-color: #007bff; /* Example color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Example font size */
+    border-radius: 5px;
+    margin-top: 350px;
+
+}
+
+.left-centered-buttonD {
+    position: absolute;
+    top: 10%; /* Adjust based on your layout */
+    left: 10%; /* Adjust based on your layout */
+    padding: 10px 20px;
+    background-color: #007bff; /* Example color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Example font size */
+    border-radius: 5px;
+    margin-top: 400px;
+
+}
+
+

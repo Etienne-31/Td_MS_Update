@@ -53,3 +53,22 @@
     border-radius: 4px;
     font-size: 16px;
 }
+
+.retour-accueil {
+    position: absolute; /* Positionnement absolu par rapport à son conteneur relatif le plus proche */
+    top: 10px; /* En haut avec une marge */
+    left: 10px; /* À gauche avec une marge */
+    padding: 10px 20px; /* Padding intérieur pour le confort du clic */
+    background-color: #fff; /* Couleur de fond, à ajuster selon votre palette de couleurs */
+    color: darkred; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Bordures arrondies */
+    font-size: 16px; /* Taille du texte */
+    text-decoration: none; /* Pas de décoration de texte pour enlever le soulignement */
+    cursor: pointer; /* Curseur en forme de main pour indiquer qu'il s'agit d'un bouton */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+.retour-accueil:hover {
+    background-color: #d0401a; /* Assombrir le bouton lors du survol */
+}

@@ -1,0 +1,101 @@
+.container    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Centrer verticalement sur la hauteur de la vue */
+    background-color: #f0f0f0; /* Couleur de fond du conteneur */
+    font-family: 'Montserrat', sans-serif; /* Utilisation de la police Montserrat */
+    padding: 20px;
+}
+
+
+.userDisplay {
+    position: absolute; /* Position absolue par rapport à l'ancêtre positionné le plus proche */
+    top: 0; /* En haut de la page */
+    left: 0; /* À gauche de la page */
+    color: #800020; /* Rouge bordeaux */
+    font-size: 18px; /* Taille de police légèrement augmentée */
+    padding: 10px; /* Un peu de padding pour ne pas coller aux bords */
+    font-family: 'Arial', sans-serif; /* La police peut être ajustée selon vos préférences */
+}
+
+.logoutButton {
+    position: absolute;
+    top: 10px; /* Ajustez selon la mise en page */
+    right: 10px; /* Ajustez selon la mise en page */
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* Rouge bordeaux */
+    color: darkred;
+    border: none;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+
+}
+
+.logoutButton:hover {
+    background-color: #a00; /* Une teinte légèrement plus claire pour l'effet hover */
+}
+
+.return-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff; /* White background */
+    color: #800020; /* Red Bordeaux */
+    padding: 10px 20px;
+    border: 2px solid #800020; /* Red Bordeaux border */
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase; /* Optional: transforms text to uppercase */
+    font-weight: bold; /* Optional: makes the font bold */
+    border-radius: 5px;
+}
+
+
+
+.mission-title {
+    color: #800020; /* Rouge bordeaux */
+    font-size: 24px; /* Grande taille pour le titre de la mission */
+    margin-bottom: 10px; /* Espacement avant le bloc suivant */
+}
+
+.mission-info {
+    text-align: left; /* Alignement du texte à gauche */
+    width: 100%; /* Utilisation de la pleine largeur */
+    margin-bottom: 600px; /* Espacement après le titre */
+}
+
+.mission-info p {
+    font-size: 18px; /* Taille appropriée pour les détails de la mission */
+    margin-bottom: 5px; /* Espacement entre les lignes */
+}
+
+.comment-section {
+    margin-top: 15px; /* Espacement avant la section des commentaires */
+    font-style: italic; /* Style italique pour les commentaires */
+}
+
+.accept-button {
+    background-color: #800020; /* Rouge bordeaux pour le bouton d'action */
+    color: white; /* Texte en blanc pour le contraste */
+    padding: 10px 15px; /* Padding pour la taille du bouton */
+    margin-top: 20px; /* Espacement après la liste des détails */
+    border: none; /* Pas de bordure pour le bouton */
+    cursor: pointer; /* Curseur pointeur pour indiquer l'action */
+    border-radius: 5px; /* Bords arrondis pour le bouton */
+    margin-bottom: 10px;
+}
+
+.accept-button:hover {
+    background-color: #a00; /* Changement de couleur au survol */
+}
+
+.mapContainerStyle {
+    position: absolute; /* Use relative instead of absolute to flow with the document */
+    width: 1000px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    border: 2px solid #000; /* Add a border around the map */
+    z-index: 0; /* Ensure the map is above other elements */
+}

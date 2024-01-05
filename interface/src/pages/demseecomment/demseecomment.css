@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: flex-start; /* Align items to the top */
+    padding-left: 20px; /* Adjust as needed for spacing from the left */
+    padding-top: 20px; /* Adjust as needed for spacing from the top */
+}
+
+
+.userDisplay {
+    margin-bottom: 20px;
+}

@@ -34,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Programmation_Insa/5ème année/TD_MS_Update/Td_MS_Update/MicroServiceTemplate",
+    "last_opened_file_path": "D:/Programmation_Insa/5ème année/TD_MS_Update/Td_MS_Update/interface",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,6 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1704195106497</updated>
       <workItem from="1704195108088" duration="8526000" />
+      <workItem from="1704281830093" duration="20872000" />
+      <workItem from="1704366088349" duration="19374000" />
+      <workItem from="1704459193015" duration="9938000" />
     </task>
     <servers />
   </component>
@@ -88,7 +91,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/signeUp/signeUp.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

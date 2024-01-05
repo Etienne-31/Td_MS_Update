@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Centrer verticalement sur la hauteur de la vue */
+    background-color: #f0f0f0; /* Couleur de fond du conteneur */
+    font-family: 'Montserrat', sans-serif; /* Utilisation de la police Montserrat */
+    padding: 20px;
+}
+
+.userDisplay {
+    align-self: flex-start;
+    color: #800020; /* Rouge bordeaux */
+    font-size: 18px; /* Taille de police légèrement augmentée */
+    padding: 10px; /* Un peu de padding pour ne pas coller aux bords */
+    margin-bottom: 20px; /* Espace en dessous du userDisplay */
+}
+
+.input-text {
+    width: 80%; /* Largeur des zones de texte */
+    padding: 8px;
+    margin-bottom: 15px; /* Espace entre les zones de texte */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 16px; /* Taille de police pour la saisie de texte */
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px; /* Espace au-dessus du bouton */
+    width: 80%; /* Largeur du bouton pour correspondre aux zones de texte */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}
+
+/* Les autres classes peuvent rester telles quelles */
+
+/* Ajout du style pour la zone d'édition activée par le bouton Modifier */
+.editable-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.editable-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Appliquer ce style aux input de type text lorsqu'ils sont visibles */
+.editable-field input[type="text"] {
+    width: calc(100% - 20px); /* Prend toute la largeur disponible moins le padding */
+    padding: 10px;
+    margin-bottom: 10px; /* Espace entre les champs d'édition */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+}

@@ -1,0 +1,74 @@
+/* SignUp.css */
+
+/* Styles pour centrer et styliser le conteneur du formulaire */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Centrer verticalement sur la hauteur de la vue */
+    background-color: #f0f0f0; /* Couleur de fond du conteneur */
+    font-family: 'Montserrat', sans-serif; /* Utilisation de la police Montserrat */
+    padding: 20px;
+}
+
+/* Styles pour votre formulaire */
+.signup-container form {
+    width: 100%;
+    max-width: 400px; /* Largeur maximale du formulaire */
+    background-color: #ffffff; /* Fond du formulaire */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Styles pour vos inputs */
+.signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Taille de police */
+}
+
+/* Styles pour votre bouton de soumission */
+.signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Couleur du bouton */
+    color: #fff; /* Couleur du texte */
+    border: none;
+    border-radius: 4px;
+    font-size: 18px; /* Taille de police */
+    cursor: pointer;
+}
+
+/* Styles pour la liste déroulante */
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.retour-accueil {
+    position: absolute; /* Positionnement absolu par rapport à son conteneur relatif le plus proche */
+    top: 10px; /* En haut avec une marge */
+    left: 10px; /* À gauche avec une marge */
+    padding: 10px 20px; /* Padding intérieur pour le confort du clic */
+    background-color: #fff; /* Couleur de fond, à ajuster selon votre palette de couleurs */
+    color: darkred; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Bordures arrondies */
+    font-size: 16px; /* Taille du texte */
+    text-decoration: none; /* Pas de décoration de texte pour enlever le soulignement */
+    cursor: pointer; /* Curseur en forme de main pour indiquer qu'il s'agit d'un bouton */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+.retour-accueil:hover {
+    background-color: #d0401a; /* Assombrir le bouton lors du survol */
+}
