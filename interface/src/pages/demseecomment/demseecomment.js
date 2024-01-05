@@ -26,7 +26,7 @@ function Demseecomment() {
     useEffect(() => {
         const fetchMissions = async () => {
             try {
-                const response = await fetch(`http://localhost:8080/getAllCommentsFromUser/${userName}`);
+                const response = await fetch(`http://localhost:8084/getAllCommentsFromUser/${userName}`);
                 const data = await response.json();
                 if (Array.isArray(data)) {
                     setComments(data);

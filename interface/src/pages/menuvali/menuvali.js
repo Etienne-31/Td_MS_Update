@@ -19,7 +19,7 @@ function Menuvali() {
 
     useEffect(() => {
         const fetchMissions = async () => {
-            const response = await fetch('http://localhost:8080/getAllMissionByStatus/PENDING');
+            const response = await fetch('http://localhost:8083/getAllMissionByStatus/PENDING');
             const data = await response.json();
             setMissions(data);
         };

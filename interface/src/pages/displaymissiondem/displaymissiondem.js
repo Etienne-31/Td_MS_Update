@@ -48,7 +48,7 @@ function Displaymissiondem() {
 
     useEffect(() => {
         // Fetch mission data and then geocode the location to get lat/lng
-        fetch(`http://localhost:8080/getMissionById/${idMissionSelected}`)
+        fetch(`http://localhost:8083/getMissionById/${idMissionSelected}`)
             .then((response) => response.json())
             .then((missionData) => {
                 setMission(missionData);

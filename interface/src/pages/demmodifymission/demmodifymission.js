@@ -15,7 +15,7 @@ function Demodify() {
     });
 
     useEffect(() => {
-        fetch(`http://localhost:8080/getMissionById/${idMissionSelected}`)
+        fetch(`http://localhost:8083/getMissionById/${idMissionSelected}`)
             .then((response) => response.json())
             .then((data) => {
                 setMissionDetails({

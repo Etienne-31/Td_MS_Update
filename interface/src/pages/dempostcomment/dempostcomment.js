@@ -39,7 +39,7 @@ function Dempostcomment() {
 
         // Utilisez une nouvelle variable au lieu de réaffecter 'comment'
         const commentToSend = `${Note}-${userName}`;
-        fetch(`http://localhost:8080/sendComment/${commentToSend}`, {
+        fetch(`http://localhost:8084/sendComment/${commentToSend}`, {
             method: 'POST', // Changed to POST
             headers: {
                 'Content-Type': 'application/json',

@@ -34,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Programmation_Insa/5ème année/TD_MS_Update/Td_MS_Update/interface",
+    "last_opened_file_path": "D:/Programmation_Insa/5ème année/td_ms/TD_MicroService",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,7 +79,8 @@
       <workItem from="1704195108088" duration="8526000" />
       <workItem from="1704281830093" duration="20872000" />
       <workItem from="1704366088349" duration="19374000" />
-      <workItem from="1704459193015" duration="9938000" />
+      <workItem from="1704459193015" duration="10368000" />
+      <workItem from="1704471128279" duration="624000" />
     </task>
     <servers />
   </component>

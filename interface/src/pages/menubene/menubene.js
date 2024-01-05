@@ -22,7 +22,7 @@ function Menubene() {
 
     useEffect(() => {
         const fetchMissions = async () => {
-            const response = await fetch('http://localhost:8080/getAllMissionByStatus/ACCEPTED');
+            const response = await fetch('http://localhost:8083/getAllMissionByStatus/ACCEPTED');
             const data = await response.json();
             setMissions(data);
         };

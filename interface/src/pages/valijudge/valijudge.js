@@ -27,12 +27,12 @@ function Valijudge() {
     const Validate = async () => {
         if (window.confirm("Voulez-vous vraiment finir la mission ?")) {
             try {
-                await fetch(`http://localhost:8080/updateMissionCommentaire/${idMissionSelected}`, {
+                await fetch(`http://localhost:8083/updateMissionCommentaire/${idMissionSelected}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ comment })
                 });
-                await fetch(`http://localhost:8080/updateMissionStatus/${idMissionSelected}/ACCEPTED`, {
+                await fetch(`http://localhost:8083/updateMissionStatus/${idMissionSelected}/ACCEPTED`, {
                     method: 'PUT'
                 });
                 window.location.href = '/menuvali';
@@ -45,12 +45,12 @@ function Valijudge() {
     const Refuse = async () => {
         if (window.confirm("Voulez-vous vraiment finir la mission ?")) {
             try {
-                await fetch(`http://localhost:8080/updateMissionCommentaire/${idMissionSelected}`, {
+                await fetch(`http://localhost:8083/updateMissionCommentaire/${idMissionSelected}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ comment })
                 });
-                await fetch(`http://localhost:8080/updateMissionStatus/${idMissionSelected}/REFUSED`, {
+                await fetch(`http://localhost:8083/updateMissionStatus/${idMissionSelected}/REFUSED`, {
                     method: 'PUT'
                 });
                 window.location.href = '/menuvali';

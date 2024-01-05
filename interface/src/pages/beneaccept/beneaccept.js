@@ -27,12 +27,12 @@ function Beneaccept() {
     const finalizeMission = async () => {
         if (window.confirm("Voulez-vous vraiment finir la mission ?")) {
             try {
-                await fetch(`http://localhost:8080/updateMissionCommentaire/${idMissionSelected}`, {
+                await fetch(`http://localhost:8083/updateMissionCommentaire/${idMissionSelected}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ comment })
                 });
-                await fetch(`http://localhost:8080/updateMissionStatus/${idMissionSelected}/DONE`, {
+                await fetch(`http://localhost:8083/updateMissionStatus/${idMissionSelected}/DONE`, {
                     method: 'PUT'
                 });
                 window.location.href = '/menubene';
