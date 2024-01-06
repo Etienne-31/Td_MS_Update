@@ -37,7 +37,7 @@ function Menuvali() {
     return(
         <div className="container">
             <div className="userDisplay">
-                <h1>Validateur :  {userName} </h1>
+                <h1>Valideur :  {userName} </h1>
             </div>
             <button onClick={handleLogout} className="logoutButton">Déconnexion</button>
             <div className="missions-list">

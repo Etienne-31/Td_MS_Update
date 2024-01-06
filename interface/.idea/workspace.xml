@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="492341c6-0eae-42f0-9c1b-7f9f0d674e1e" name="Changes" comment="" />
+    <list default="true" id="492341c6-0eae-42f0-9c1b-7f9f0d674e1e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/displaymissionbene/displaymissionbene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/displaymissionbene/displaymissionbene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/displaymissiondem/displaymissiondem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/displaymissiondem/displaymissiondem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/displaymissionvali/displaymissionvali.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/displaymissionvali/displaymissionvali.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/menuvali/menuvali.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/menuvali/menuvali.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signeIn/signeIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signeIn/signeIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/valijudge/valijudge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/valijudge/valijudge.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Programmation_Insa/5ème année/td_ms/TD_MicroService",
+    "last_opened_file_path": "D:/Cours Insa/5A/Projet_MS/TD_MS_Update/TD_MicroService/DiscoveryService",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,6 +90,7 @@
       <workItem from="1704366088349" duration="19374000" />
       <workItem from="1704459193015" duration="10368000" />
       <workItem from="1704471128279" duration="624000" />
+      <workItem from="1704473305591" duration="5980000" />
     </task>
     <servers />
   </component>

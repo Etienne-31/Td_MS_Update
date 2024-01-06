@@ -35,6 +35,9 @@ function Valijudge() {
                 await fetch(`http://localhost:8083/updateMissionStatus/${idMissionSelected}/ACCEPTED`, {
                     method: 'PUT'
                 });
+                await fetch(`http://localhost:8083/updateMissionAccepteur/${idMissionSelected}/${userName}`, {
+                    method: 'PUT'
+                });
                 window.location.href = '/menuvali';
             } catch (error) {
                 console.error('Error:', error);
@@ -53,6 +56,9 @@ function Valijudge() {
                 await fetch(`http://localhost:8083/updateMissionStatus/${idMissionSelected}/REFUSED`, {
                     method: 'PUT'
                 });
+                await fetch(`http://localhost:8083/updateMissionAccepteur/${idMissionSelected}/${userName}`, {
+                    method: 'PUT'
+                });
                 window.location.href = '/menuvali';
             } catch (error) {
                 console.error('Error:', error);
@@ -63,7 +69,7 @@ function Valijudge() {
     return (
         <div className="container">
             <div className="userDisplay">
-                <h1>Bénévole : {userName}</h1>
+                <h1>Valideur : {userName}</h1>
                 <h2>Intitulé de mission : {intituleMission}</h2>
             </div>
             <textarea

@@ -28,7 +28,7 @@ function SignUp() {
             });
 
             const result = await response.json();
-            console.log("response : "+result)
+            console.log("password : "+password)
             console.log("result.success : "+result.success)
             // Enregistrez la valeur de `result` et du userName dans le stockage local
             localStorage.setItem('userRole', result);

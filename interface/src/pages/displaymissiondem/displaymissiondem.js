@@ -84,6 +84,7 @@ function Displaymissiondem() {
                 <div className="mission-info">
                     <h2 className="mission-title">Intitulé de mission : {mission.intituleMission}</h2>
                     <p>ID de mission : {mission.idMission}</p>
+                    <p>Status : {mission.status}</p>
                     <p>Demandeur : {mission.emetteur}</p>
                     <p>Accepteur : {mission.accepteur}</p>
                     <p>Lieu : {mission.location}</p>

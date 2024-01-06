@@ -69,7 +69,7 @@ function Displaymissionvali() {
     return(
         <div className="container">
             <div className="userDisplay">
-                <h1>Validateur : {userName}</h1>
+                <h1>Valideur : {userName}</h1>
             </div>
             <button onClick={handleLogout} className="logoutButton">Déconnexion</button>
             <button className="return-button" onClick={handleReturn}>Retour en arrière</button>
@@ -77,6 +77,7 @@ function Displaymissionvali() {
                 <div className="mission-info">
                     <h2 className="mission-title">Intitulé de mission : {mission.intituleMission}</h2>
                     <p>ID de mission : {mission.idMission}</p>
+                    <p>Status : {mission.status}</p>
                     <p>Demandeur : {mission.emetteur}</p>
                     <p>Accepteur : {mission.accepteur}</p>
                     <p>Lieu : {mission.location}</p>

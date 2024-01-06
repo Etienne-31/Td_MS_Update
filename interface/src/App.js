@@ -31,7 +31,7 @@ function Home() {
     const [comments, setComments] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8080/getAllComments')
+        fetch('http://localhost:8084/getAllComments')
             .then(response => response.json())
             .then(data => setComments(data))
             .catch(error => console.error(error));
