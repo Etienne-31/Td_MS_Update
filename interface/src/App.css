@@ -24,7 +24,7 @@ h1 img {
 .button {
     background-color: white; /* Fond blanc */
     border: 1px solid #800020; /* Bordure rouge bordeaux pour correspondre au thème */
-    color: #800020; /* Texte rouge bordeaux pour correspondre au thème */
+    color: #aa0000; /* Texte rouge bordeaux pour correspondre au thème */
     padding: 15px 30px; /* Ajustez le padding pour changer la taille */
     text-transform: uppercase; /* Optionnel: texte en majuscules */
     font-weight: bold; /* Police en gras */
